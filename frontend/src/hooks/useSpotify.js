@@ -26,5 +26,5 @@ export async function getPlaylist() {
 export function formatDuration(ms) {
   const mins = Math.floor(ms / 60000);
   const secs = Math.floor((ms % 60000) / 1000).toString().padStart(2, "0");
-  return `${mins}:${secs}`;
+  return `${mins}:${secs}`; 
 }
