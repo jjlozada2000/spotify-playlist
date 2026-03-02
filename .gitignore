@@ -1,0 +1,19 @@
+touch .gitignore
+```
+
+Then open it and paste this:
+```
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables
+.env
+*/.env
+
+# Build outputs
+dist/
+*/dist/
+
+# Misc
+.DS_Store
